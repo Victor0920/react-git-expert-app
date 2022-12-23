@@ -1,3 +1,3 @@
-#GifExpert App
+# GifExpert App
 
 Testing repo for React course
