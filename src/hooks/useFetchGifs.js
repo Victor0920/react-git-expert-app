@@ -11,7 +11,7 @@ export const useFetchGifs = (category) => {
         setIsLoading(false);
     };
 
-    // Si dejo el segundo argumento vacío ([ ]), el useEffect se ejecutará solo la primera vez que se renderiza
+    // Si dejo el segundo argumento vacío ([]), el useEffect se ejecutará solo la primera vez que se renderiza
     useEffect(() => {
         getImages();
     }, []);
